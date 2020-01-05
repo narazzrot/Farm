@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url("woood.png");
+	 background-repeat: repeat;
+	 background-size: cover;
+	background-size:100%;
+}
+
+#Topic ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+	display:inline-block;
+}
+
+#Topics li {
+  display:inline;
+	margin: auto;
+	text-align: center;
+}
+
+#hr {
+	margin: auto;
+}
+
+#p2 {
+	text-align: center;
+	font: "Aladin";
+	font: 30px;
+	
+
+}
+
+
+.box{
+	width:90px;
+	height:20px;
+	padding-left: 2px;
+}
+
+
+.green{
+	background:#0f0;
+	float: right; background-color:green;  padding-bottom: 5px;
+	top: 230px;
+	right: 100px;
+	position: absolute;
+	border-style: solid;
+	border-width: 2px;
+	 background: linear-gradient(yellow, green);
+	border-radius: 30px;
+}
+
+.green2{
+	background:#0f0;
+	float: left; background-color:green;  padding-bottom: 5px;
+	top: 230px;
+	left: 100px;
+	position: absolute;
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 2px;
+  background: linear-gradient(yellow, green);
+}
+
+
+
+p.solid {border-style: dashed;}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+	color: white;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button {
+  border-radius: 12px;
+	 background: linear-gradient(white, orange);
+  border: thin;
+	border-style: dashed;
+  color: black;
+  text-align: center;
+  font-size: 12.1px;
+  padding: 20px;
+	height: 60px;
+  width: 135px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+	background-color: green;
+	color: black;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #aaaaaa;
+	border-radius: .7em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 28px solid transparent;
+	border-bottom-color: #aaaaaa;
+	border-top: 0;
+	margin-left: -29px;
+	margin-top: -29px;
+	
+}
+
+h2 {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+
+
